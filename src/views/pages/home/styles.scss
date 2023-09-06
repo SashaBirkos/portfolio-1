@@ -1,4 +1,75 @@
 @use 'Styles/modules/highlight.scss';
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100;200;300;400;500;700&family=Manrope:wght@400;600;700&display=swap');
+
 
 // page styles
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Manrope, sans-serif;
+}
 
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.main {
+    background-image: url(../../../assets/images/redd-5U_28ojjgms-unsplash\ \(1\)\ 1.png);
+    height: 1080px;
+}
+
+header {
+    padding: 46px 399px 30px 405px;
+}
+
+.menu {
+    color: #fff;
+    display: flex;
+    justify-content: flex-end;
+    gap: 40px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+section {
+    margin-left: 405px;
+    margin-top: 190px;
+}
+
+.title h1 {
+    color: #fff;
+    font-size: 86px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%;
+    margin-bottom: 90px;
+}
+
+.button {
+    background-color: #3E41FF;
+    padding: 30px 98px;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.content {
+    background-color: #090D1E;
+    height: 1000px;
+}
+
+.block-aboutus {
+    background-color: #fff;
+    margin: 0 405px;
+}
+
+.block-aboutus h2 {
+    padding: 100px 447px 40px 450px;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.block-aboutus p {
+    padding: 0 160px;
+    font-size: 24px;
+}
