@@ -1,24 +1,33 @@
 @font-face {
-    font-family: SFProDisplay, sans-serif;
-    src: 
-        url(../../fonts/SFProDisplay/SFProDisplay-Black.eot) format('eot'),
-        url(../../fonts/SFProDisplay/SFProDisplay-Black.svg) format('svg'),
-        url(../../fonts/SFProDisplay/SFProDisplay-Black.ttf) format('ttf'),
-        url(../../fonts/SFProDisplay/SFProDisplay-Black.woff) format('woff'),
-        url(../../fonts/SFProDisplay/SFProDisplay-Black.woff2) format('woff2');
-    font-style: normal;
-    font-weight: 700;
+    font-family: Manrope, sans-serif;
+    src:
+        url(../../fonts/Manrope/Manrope-Bold.eot) format("eot"),
+        url(../../fonts/Manrope/Manrope-Bold.svg) format("svg"),
+        url(../../fonts/Manrope/Manrope-Bold.ttf) format("ttf"),
+        url(../../fonts/Manrope/Manrope-Bold.woff) format("woff"),
+        url(../../fonts/Manrope/Manrope-Bold.woff2) format("woff2");
+        font-weight: 700;
 }
 
 @font-face {
-    font-family: SFProDisplay, sans-serif;
+    font-family: Manrope, sans-serif;
     src: 
-        url(../../fonts/SFProDisplay/SFProDisplay-Regular.eot) format('eot'),
-        url(../../fonts/SFProDisplay/SFProDisplay-Regular.svg) format('svg'),
-        url(../../fonts/SFProDisplay/SFProDisplay-Regular.ttf) format('ttf'),
-        url(../../fonts/SFProDisplay/SFProDisplay-Regular.woff) format('woff'),
-        url(../../fonts/SFProDisplay/SFProDisplay-Regular.woff2) format('woff2');
-        font-style: normal;
+        url(../../fonts/Manrope/Manrope-SemiBold.eot) format("eot"),
+        url(../../fonts/Manrope/Manrope-SemiBold.svg) format("svg"),
+        url(../../fonts/Manrope/Manrope-SemiBold.ttf) format("ttf"),
+        url(../../fonts/Manrope/Manrope-SemiBold.woff) format("woff"),
+        url(../../fonts/Manrope/Manrope-SemiBold.woff2) format("woff2");
+        font-weight: 600;
+}
+
+@font-face {
+    font-family: Manrope, sans-serif;
+    src: 
+        url(../../fonts/Manrope/Manrope-Regular.eot) format("eot"),
+        url(../../fonts/Manrope/Manrope-Regular.svg) format("svg"),
+        url(../../fonts/Manrope/Manrope-Regular.ttf) format("ttf"),
+        url(../../fonts/Manrope/Manrope-Regular.woff) format("woff"),
+        url(../../fonts/Manrope/Manrope-Regular.woff2) format("woff2");
         font-weight: 400;
 }
 
