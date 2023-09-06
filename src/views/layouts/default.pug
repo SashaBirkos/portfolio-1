@@ -1,0 +1,43 @@
+//- Local variables
+- const fullYear = (new Date).getFullYear();
+
+//- External variables
+block variables
+
+doctype html
+html(lang='en' dir='ltr')
+  head
+    //- Meta
+    meta(charset='utf-8')
+    meta(name='viewport' content='width=device-width, initial-scale=1, maximum-scale=1')
+    meta(property='description' content='Hello world')
+
+    //- Favicons
+
+    //- Page title
+    title= title
+
+    //- Page styles
+    block style
+      //- common used styles
+      link(rel='stylesheet' href=require('Styles/base/main.scss'))
+
+    //- Additional head block, e.g. for preload scripts in head
+    block head
+      script(src=require('Scripts/common.js') defer)
+
+      // Demo how to inline CSS
+      style=require('Styles/inline-styles.scss?inline')
+
+  body
+    //- Main header
+
+    //- Main content
+    main.main-container
+      .main-content
+        block content
+
+    //- Main footer
+
+    //- Page scripts
+    block script
