@@ -35,6 +35,7 @@ header {
 section {
     margin-left: 405px;
     margin-top: 190px;
+    position: relative;
 }
 
 .title h1 {
@@ -54,22 +55,36 @@ section {
 }
 
 .content {
+    margin: -2px;
     background-color: #090D1E;
-    height: 1000px;
+    height: 2000px;
+    display: flex;
+    justify-content: center;
 }
 
 .block-aboutus {
     background-color: #fff;
-    margin: 0 405px;
+    max-width: 1110px;
+    max-height: 1082px;
+    display: flex;
+    flex-direction: column;
 }
 
 .block-aboutus h2 {
-    padding: 100px 447px 40px 450px;
+    display: flex;
+    justify-content: center;
     font-size: 48px;
     font-weight: 700;
+    padding: 100px 0 40px 0;
 }
 
-.block-aboutus p {
+.block-aboutus-p {
     padding: 0 160px;
     font-size: 24px;
+}
+
+.block-aboutus-image {
+    display: flex;
+    justify-content: center;
+    margin: 40px 0 100px 0;
 }
