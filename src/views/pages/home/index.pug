@@ -2,36 +2,36 @@ extends Views/layouts/default.pug
 
 //- set variables used in layout
 block variables
-  - const title = 'Home'
+	- const title = 'Home'
 
 //- add page specifically styles
 append style
-  link(href=require('./styles.scss') rel='stylesheet')
+	link(href=require('./styles.scss') rel='stylesheet')
 
 //- add page specifically scripts
 append script
-  script(src=require('./main.js') defer)
+	script(src=require('./main.js') defer)
 
 block header
-  .main
-    header
-      ul.menu
-        a(href="#")
-          ol About Us
-        a(href="#")
-          ol Industries
-        a(href="#")
-          ol Contacts
-    hr
-    section
-      .title
-        h1 Consultancy that <br> drives optimal <br> results
-      a.button(href="#") Contact us 
+	.main
+		header
+			ul.menu
+				li
+					a(href="#") About Us
+				li
+					a(href="#") Industries
+				li
+					a(href="#") Contacts
+		hr
+		section
+			.title
+				h1 Consultancy that <br> drives optimal <br> results
+			a.button(href="#") Contact us 
 block content
-  .content
-    .block-aboutus
-      h2 About Us
-      p BerLush is a consultancy firm with a regional network of companies and portable dynamic expertise, working with local, regional and global clients across different industries to provide consultancy that drives optimal results.
-      br
-      p As an entrusted partner and reliable escort to excellence, we don’t stop at high level consultancy and theoretical recommendations, but rather walk every organization hand in hand through their journey to effective, proven, and enduring solutions.
-      br
+	.content
+		.block-aboutus
+			h2 About Us
+			p BerLush is a consultancy firm with a regional network of companies and portable dynamic expertise, working with local, regional and global clients across different industries to provide consultancy that drives optimal results.
+			p As an entrusted partner and reliable escort to excellence, we don’t stop at high level consultancy and theoretical recommendations, but rather walk every organization hand in hand through their journey to effective, proven, and enduring solutions.
+			.block-aboutus-image
+				img(src=require('Images/about-us-image.png'))
