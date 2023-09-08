@@ -66,6 +66,7 @@ section {
 .card-aboutus {
     display: flex;
     justify-content: center;
+    
 }
 
 .block-aboutus {
@@ -77,6 +78,7 @@ section {
 }
 
 .block-aboutus h2 {
+    color: #090D1E;
     display: flex;
     justify-content: center;
     font-size: 48px;
@@ -156,3 +158,45 @@ section {
     padding: 0 0 0 30px;
 }
 
+.card-contacts {
+    display: flex;
+    justify-content: center;
+}
+
+.block-contacts {
+    background-color: #fff;
+    max-width: 1110px;
+    max-height: 911px;
+}
+
+.contacts-title {
+    display: flex;
+    justify-content: center;
+    color: #090D1E;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.contacts-info {
+    display: flex;
+    gap: 65px;
+}
+
+.card-contacts-info {
+    width: 315px;
+    height: 213px;
+}
+
+.card-contacts-info h1 {
+    font-size:  32px;
+    font-weight: 700;
+    color: #090D1E;
+    
+}
+
+.card-contacts-info p {
+    font-size: 24px;
+    font-weight: 400;
+    color: #090D1E;
+    opacity: 0.8;
+}
