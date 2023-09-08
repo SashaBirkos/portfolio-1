@@ -4,6 +4,7 @@
 
 // page styles
 * {
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
     font-family: Manrope, sans-serif;
@@ -72,32 +73,29 @@ section {
 .block-aboutus {
     background-color: #fff;
     max-width: 1110px;
-    max-height: 1082px;
     display: flex;
     flex-direction: column;
+    padding: 100px 160px;
 }
 
 .block-aboutus h2 {
     color: #090D1E;
-    display: flex;
-    justify-content: center;
+    text-align: center;
     font-size: 48px;
     font-weight: 700;
-    padding: 100px 0 40px 0;
+    margin-bottom: 40px;
 }
 
 .block-aboutus-p {
     display: flex;
     flex-direction: column;
     gap: 30px;
-    padding: 0 160px;
     font-size: 24px;
 }
 
 .block-aboutus-image {
     display: flex;
     justify-content: center;
-    margin: 40px 0 100px 0;
 }
 
 .block-text {
