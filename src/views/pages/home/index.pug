@@ -23,62 +23,19 @@ block header
 				li
 					a(href="#") Contacts
 block content
-	.main
-		section
-			.title
+	section.main
+		.container 
+			.main-wrapper
 				h1 Consultancy that <br> drives optimal <br> results
-			a.button(href="#") Contact us 
-	#content 
-		.card-aboutus
-			.block-aboutus
+				a.main-button(href="#" ) Contact us
+				
+	section.aboutUs
+		.container
+			.aboutUs-wrapper
 				h2 About Us
-				.block-aboutus-p
+				.aboutUs-wrapper-text
 					p BerLush is a consultancy firm with a regional network of companies and portable dynamic expertise, working with local, regional and global clients across different industries to provide consultancy that drives optimal results.
 					p As an entrusted partner and reliable escort to excellence, we don’t stop at high level consultancy and theoretical recommendations, but rather walk every organization hand in hand through their journey to effective, proven, and enduring solutions.
-				.block-aboutus-image
-					img(src=require('Images/about-us-image.png'))
-		.block-text
-			h2 BerLush representing a different <br> companies in a different sectors <br> in KSA
-		.block-industries
-			.industries-text
-				h2 Industries <br> that we <br> serve
-			.card-industries 
-				img.card-images(src=require('Images/hardware-chip.svg'))
-				h1 Cyber
-				hr
-				p Opora Cervello
-			.card-industries
-				img.card-images(src=require('Images/shield.svg'))
-				h1 Security
-				hr
-				p D-fend
-			.card-industries
-				img.card-images(src=require('Images/subway.svg'))
-				h1 Rail vehicle
-				hr
-				p Deuta
-		.card-contacts
-			.block-contacts
-				.contacts-title
-					h2 Contacts
-				.contacts-info
-					.contacts-images
-						img(src=require('Images/contacts.png'))
-					.contacts-card
-						.card-contacts-info  
-							img.card-info-images(src=require('Images/mail.svg'))
-							h1 Email
-							hr
-							p info@berlush.com
-						.card-contacts-info  
-							img.card-info-images(src=require('Images/call.svg'))
-							h1 Phone
-							hr
-							p  7777777
-						.card-contacts-info  
-							img.card-info-images(src=require('Images/location.svg'))
-							h1 Location
-							hr
-							p Strits
-				
+				.aboutUs-wrapper-images
+					img(src=require('Images/aboutUs-image.png'))
 			

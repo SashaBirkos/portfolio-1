@@ -2,7 +2,6 @@
 
 // page styles
 * {
-    box-sizing: border-box;
     margin: 0;
     padding: 0;
     font-family: Manrope, sans-serif;
@@ -13,6 +12,7 @@ a {
     text-decoration: none;
     color: #fff;
 }
+
 
 .main {
     background-image: url(../../../assets/images/redd-5U_28ojjgms-unsplash\ \(1\)\ 1.png);
@@ -46,164 +46,68 @@ header {
     list-style-type: none;
 }
 
-section {
-    margin-left: 405px;
-    //margin-top: 190px;
-    position: relative;
+.main {
+    &-wrapper {
+        margin-top: 190px;
+
+        h1 {
+            color: #FFF;
+            font-size: 86px;
+            font-weight: 600;
+            line-height: 120%;
+            margin-bottom: 70px;
+        }
+
+        a {
+            // text
+            color: #FFF;
+            font-size: 32px;
+            font-weight: 700;
+            letter-spacing: 0.32px;
+
+            // button
+            background-color: #3E41FF;
+            padding: 30px 98px;
+            display: flex;
+            display: inline-block;
+        }
+    }
 }
 
-.title h1 {
-    color: #fff;
-    font-size: 86px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 120%;
-    margin-bottom: 90px;
-}
-
-.button {
-    background-color: #3E41FF;
-    padding: 30px 98px;
-    font-size: 32px;
-    font-weight: 700;
-}
-
-#content {
+.aboutUs {
     background-color: #090D1E;
-}
-
-.card-aboutus {
     display: flex;
-    justify-content: center;
-    
-}
 
-.block-aboutus {
-    background-color: #fff;
-    max-width: 1110px;
-    display: flex;
-    flex-direction: column;
-    padding: 100px 160px;
-}
+    &-wrapper {
+        background-color: #FFF;
+        padding: 100px 160px;
+        
+        h2 {
+            color: #090D1E;
+            font-size: 48px;
+            font-weight: 700;
+            text-align: center;
+            margin-bottom: 40px;
+        }
 
-.block-aboutus h2 {
-    color: #090D1E;
-    text-align: center;
-    font-size: 48px;
-    font-weight: 700;
-    margin-bottom: 40px;
-}
+        &-text {
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
 
+            p {
+                color: #090D1E;
+                font-size: 24px;
+                font-weight: 400px;
+            }
+        }
 
-.block-aboutus-p {
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
-    font-size: 24px;
-}
+        &-images {
+            margin-top: 40px;
+            img{
+                max-width: 100%;
+            }
 
-.block-aboutus-image {
-    display: flex;
-    justify-content: center;
-}
-
-.block-text {
-    display: flex;
-    justify-content: center;
-    margin-top: 100px;
-}
-
-.block-text h2 {
-    color: #fff;
-    font-size: 48px;
-    font-weight: 700px;
-    text-align: center;
-}
-
-.block-industries {
-    margin-top: 50px;
-    gap: 30px;
-    display: flex;
-    justify-content: center;
-}
-
-.industries-text h2 {
-    color: #3E41FF;
-    font-size: 48px;
-    font-weight: 700;
-    line-height: 120%;
-}
-
-.card-industries {
-    background-color: #151929;
-    width: 255px;
-    height: 205px;
-
-}
-
-.card-images {
-    padding: 30px 0 0 30px;
-}
-
-.card-industries h1 {
-    font-weight: 700;
-    color: #fff;
-    padding: 10px 0 0 30px;
-}
-
-.card-industries hr {
-    background-color: #fff;
-    opacity: 0.2;
-    margin: 20px 0;
-}
-
-.card-industries p {
-    font-size: 24px;
-    font-weight: 400;
-    color: #fff;
-    opacity: 0.8;
-    padding: 0 0 0 30px;
-}
-
-.card-contacts {
-    display: flex;
-    justify-content: center;
-}
-
-.block-contacts {
-    background-color: #fff;
-    max-width: 1110px;
-    max-height: 911px;
-}
-
-.contacts-title {
-    display: flex;
-    justify-content: center;
-    color: #090D1E;
-    font-size: 48px;
-    font-weight: 700;
-}
-
-.contacts-info {
-    display: flex;
-    gap: 65px;
-}
-
-.card-contacts-info {
-    width: 315px;
-    height: 213px;
-}
-
-.card-contacts-info h1 {
-    font-size:  32px;
-    font-weight: 700;
-    color: #090D1E;
-    
-}
-
-.card-contacts-info p {
-    font-size: 24px;
-    font-weight: 400;
-    color: #090D1E;
-    opacity: 0.8;
+        }
+    }
 }
