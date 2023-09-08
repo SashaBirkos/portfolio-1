@@ -13,8 +13,8 @@ append script
 	script(src=require('./main.js') defer)
 
 block header
-	.main
-		header
+	header
+		.container
 			ul.menu
 				li
 					a(href="#") About Us
@@ -22,12 +22,12 @@ block header
 					a(href="#") Industries
 				li
 					a(href="#") Contacts
-		hr
+block content
+	.main
 		section
 			.title
 				h1 Consultancy that <br> drives optimal <br> results
 			a.button(href="#") Contact us 
-block content
 	#content 
 		.card-aboutus
 			.block-aboutus
