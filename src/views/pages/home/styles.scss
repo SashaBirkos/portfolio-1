@@ -222,11 +222,15 @@ header {
     .footer {
 
         &-wrapper {
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
             margin-top: 100px;
+            gap: 126px;
+            
             &-menu {
                 color: #fff;
                 display: flex;
-                justify-content: center;
                 gap: 40px;
                 font-size: 20px;
                 font-weight: 700;
@@ -235,6 +239,12 @@ header {
                 li {
                     list-style-type: none;
                 }
+            }
+
+            p {
+                color: #84868E;
+                font-size: 18px;
+                font-weight: 400;
             }
         }
     }
