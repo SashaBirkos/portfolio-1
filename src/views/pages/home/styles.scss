@@ -17,15 +17,6 @@ body {
     background-color: #090D1E;
 }
 
-.main {
-    background-image: url(../../../assets/images/redd-5U_28ojjgms-unsplash\ \(1\)\ 1.png);
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: bottom right;
-    height: 1080px;
-	padding-top: 100px;
-}
-
 header {
     padding: 46px 0 30px 0;
 	background-color: transparent;
@@ -34,6 +25,12 @@ header {
 	top: 0;
 	left: 0;
 	right: 0;
+}
+
+.header-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .menu {
@@ -50,8 +47,15 @@ header {
 }
 
 .main {
+        background-image: url(../../../assets/images/redd-5U_28ojjgms-unsplash\ \(1\)\ 1.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: bottom right;
+        min-height: 1080px;
+        padding-top: 100px;
+        
     &-wrapper {
-        margin-top: 190px;
+        padding-top: 190px;
 
         h1 {
             color: #FFF;
@@ -59,6 +63,7 @@ header {
             font-weight: 600;
             line-height: 120%;
             margin-bottom: 70px;
+        
         }
 
         a {
@@ -73,6 +78,11 @@ header {
             padding: 30px 98px;
             display: flex;
             display: inline-block;
+
+        }
+
+        a:hover {
+            background-color: #2A2DD4;
         }
     }
 }
@@ -226,7 +236,7 @@ header {
             align-items: center;
             justify-content: flex-end;
             margin-top: 100px;
-            gap: 126px;
+            gap: 72px;
             
             &-menu {
                 color: #fff;

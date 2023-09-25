@@ -15,18 +15,21 @@ append script
 block header
 	header
 		.container
-			ul.menu
-				li
-					a(href="#aboutUs") About Us
-				li
-					a(href="#industries") Industries
-				li
-					a(href="#contacts") Contacts
+			.header-wrapper
+				.logo-wrapper-images
+					img(src=require('Images/Logo.svg'))
+				ul.menu
+					li
+						a(href="#aboutUs") About Us
+					li
+						a(href="#industries") Industries
+					li
+						a(href="#contacts") Contacts
 block content
 	section.main
 		.container 
 			.main-wrapper
-				h1 Consultancy that <br> drives optimal <br> results
+				h1 Consultancy that drives optimal  results
 				a.main-button(href="#" ) Contact us
 
 	section#aboutUs
@@ -93,6 +96,8 @@ block footer
 	section.footer 
 		.container
 			.footer-wrapper
+				.logo-wrapper-images
+					img(src=require('Images/Logo.svg'))
 				ul.footer-wrapper-menu
 					li
 						a(href="#aboutUs") About Us
